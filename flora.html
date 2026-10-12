@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FaunaFlo | Flora</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html">
+            <img id="imagotipo-web" src="imagenes/imagotipo.png" alt="Imagotipo FaunaFlo">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li> <a href="fauna.html">Fauna</a></li>
+                <li><a href="flora.html">Flora</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="pagina-intro">
+            <h1>Explora la flora</h1>
+            <p>Descubre plantas, árboles y flores de nuestro planeta.</p>
+        </div>
+        <div class="buscador">
+            <form action="#">
+                <label for="buscar-especie">Buscar especie:</label>
+                <input type="search" id="buscar-especie" name="especie-buscada"
+                    placeholder="Escribe el nombre de una especie animal o planta">
+                <button type="submit">Buscar</button>
+            </form>
+        </div>
+        <div class="filtros">
+            <h3>Filtrar plantas</h3>
+            <form action="#">
+                <label for="planta-filtrar">Elige un tipo de planta</label>
+                <select name="planta-seleccionada" id="planta-filtrar">
+                    <option value="todos">Todas las plantas</option>
+                    <option value="arboles">Árboles</option>
+                    <option value="arbustos">Arbustos</option>
+                    <option value="herbaceas">Herbáceas</option>
+                </select>
+                <button type="submit">Aplicar filtros</button>
+            </form>
+        </div>
+        <div class="registro">
+            <article class="ficha-especie">
+                <img class="imagen-especie" src="imagenes/imagen.png" alt="imagen icono">
+                <h2>Nombre común</h2>
+                <p>Nombre científico</p>
+                <a class="boton-explorar" href="proximamente2.html">Saber más</a>
+            </article>
+            <article class="ficha-especie">
+                <img class="imagen-especie" src="imagenes/girasol.png" alt="imagen girasol">
+                <h2>Girasol</h2>
+                <p>Helianthus annuus</p>
+                <a class="boton-explorar" href="proximamente2.html">Saber más</a>
+            </article>
+            <article class="ficha-especie">
+                <img class="imagen-especie" src="imagenes/roble.png" alt="imagen roble">
+                <h2>Roble común</h2>
+                <p>Quercus robur</p>
+                <a class="boton-explorar" href="proximamente2.html">Saber más</a>
+            </article>
+        </div>
+        <a class="boton-arriba" href="#">↑</a>
+    </main>
+    <footer class="footer-web">
+        <p>FaunaFlo es un proyecto educativo dedicado a la divulgación de la fauna y la flora.</p>
+        <p>La información de esta web tiene fines exclusivamente informativos y educativos. No nos hacemos responsable
+            de que a tu hijo le de por salir a descubrir la ntarualeza y lo ataque un animal o se coma una baya envenenada.
+        </p>
+        <p class="copyright">© 2026 FaunaFlo. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
